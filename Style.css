@@ -8,6 +8,7 @@ header{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    font-size: 24px;
     
 }
 h1 {
@@ -74,7 +75,7 @@ nav:after {
     right: 0;
 }
 body {
-    background-color:rgb(241, 232, 232);
+    background-color:#F7F7F7;
     color: #405d70;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -98,8 +99,7 @@ main {
     display: block;
     margin: 0 auto;
     padding: 0px 0px;
-    width: 100%;
-
+    width: 99.9%;
 }
 #beyond-skiing ul {
     list-style: circle;
@@ -107,7 +107,7 @@ main {
     text-indent: 1em;
 }
 #beyond-skiing a{
-    color: #405d70;
+    color: pink;
 }
 #beyond-skiing a:hover {
     color: tomato;
@@ -116,6 +116,7 @@ main {
 .grow {
     transition: all .2s ease-in-out;
 }
+
 .grow:hover {
     font-size: 20px;
 }
@@ -124,10 +125,15 @@ main {
    
     display: inline-block;
 }
-.photos img{
+#photos img{
     display: inline-block;
     height: 350px;
     width: auto;
     padding: 10px 5px;
     margin: 0 auto;
+}
+.writing {
+    max-width: 50%;
+    min-width: 25%;
+    text-align: justify;
 }
