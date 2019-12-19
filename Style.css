@@ -133,7 +133,13 @@ main {
     margin: 0 auto;
 }
 .writing {
-    max-width: 50%;
-    min-width: 25%;
+    max-width: 75%;
     text-align: justify;
+
+}
+.writing img{
+    float: right;
+    height: 900px;
+    padding top: 10px;
+    padding-left: 10px;
 }
